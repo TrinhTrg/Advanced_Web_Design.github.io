@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Table</title>
+    <style>
+            body {
+      font-family: Arial, sans-serif;
+      background: #f4f6f9;
+      margin: 0;
+      padding: 20px;
+    }
+
+    .container {
+      max-width: 900px;
+      margin: auto;
+      background: #fff;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    }
+
+    h1 {
+      text-align: center;
+      color: #333;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 20px;
+    }
+
+    table th, table td {
+      padding: 12px;
+      text-align: center;
+      border: 1px solid #ddd;
+    }
+    img {
+      max-width: 80px;
+      border-radius: 5px;
+    }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Product Table</h1>
+        <table class="table" border="1">
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>Name</th>
+                    <th>Price</th>
+                    <th>Image</th>
+                </tr>
+            </thead>
+            <tbody id="productTableBody">
+                <!-- Product data will be displayed here -->
+            </tbody>
+        </table>
+    </div>
+    <script src = "show.js "></script>
+</body>
+</html>
